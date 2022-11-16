@@ -56,6 +56,8 @@ public class Burc {
             System.out.println("Burcunuz Yay.");
         }else if (gun >= 22 && ay == 12 || gun <= 21 && ay == 01) {
             System.out.println("Burcunuz Oğlak.");
+        }else{
+            System.out.println("Girdiğiniz değerler doğru olmalıdır.");
         }
 
     }
